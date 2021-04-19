@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "/20C6QLwvS3uBTucuHDZcEmeDJ8eVb5LbfK4u4EnBZwFqcdWUWM3LQKZs4+EpZlkPJQ1G0fTRR6g0uLR7GUu4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\source\\repos\\TestareSoft\\TestareSoft.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victo\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\protractor\\1.0.0-alpha1\\protractor.1.0.0-alpha1.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha07\\selenium.webdriver.4.0.0-alpha07.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\selenium.webdriver.chromedriver\\89.0.4389.2300\\selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\sharpziplib\\1.3.1\\sharpziplib.1.3.1.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\wbtstr.net.core\\1.4.3.31\\wbtstr.net.core.1.4.3.31.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\wbtstr.net.seleniumwebdriver\\1.4.3.31\\wbtstr.net.seleniumwebdriver.1.4.3.31.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\webdriver.chromedriver\\26.14.313457.1\\webdriver.chromedriver.26.14.313457.1.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\webdriverchromedriver\\2.10.0\\webdriverchromedriver.2.10.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\webdrivermanager\\2.11.1\\webdrivermanager.2.11.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TestareSoft depends on Selenium.WebDriver.ChromeDriver (>= 89.0.4389.128) but Selenium.WebDriver.ChromeDriver 89.0.4389.128 was not found. An approximate best match of Selenium.WebDriver.ChromeDriver 89.0.4389.2300 was resolved.",
+      "libraryId": "Selenium.WebDriver.ChromeDriver",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WbTstr.Net.Core 1.4.3.31' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WbTstr.Net.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WbTstr.Net.SeleniumWebDriver 1.4.3.31' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WbTstr.Net.SeleniumWebDriver",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
